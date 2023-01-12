@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: 'Roboto Condensed', sans-serif;
+}
+    
+.log{
+    background-color: red;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    margin-left: 38%;
+    background-image: url(../assents/image/2Q.png);
+    background-repeat: no-repeat;
+}
+.form-label{
+    color: white;
+}
+.navBar li {
+    list-style: none;
+    margin: 0px; }
+
+    .navBar a {
+    font-size: 20PX;
+    font-weight: bolder;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    padding: 5px; }
+    footer {
+        background-color: rgb(0, 0, 0);
+        height: 60px;
+        padding-right: 10px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        flex-wrap: wrap; }
+        footer p {
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap; 
+        color: white;
+        }
+        footer .logos {
+        width: 30px;
+        height: 30px; }
+        footer .redes {
+        display: flex;
+        justify-content: end;
+        align-content: flex-end;
+        flex-wrap: wrap; }
+.paginaprin{
+    background-image: url(../assents/image/Depo1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    
+}
+.paginaprin h1{
+    color: rgba(255, 0, 0, 0.671);
+    font-size: 200px;
+}
+.olvidar a{
+    color: white;
+}
+.cardgroup{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+    "card-1,card-2,card-3"
+    "card-4,card-5,card-6"
+    "card-7,card-8,card-9"
+    ;
+    margin-left: 12px;
+    gap: 10px;
+}
+.carrito{
+    display: flex;
+    justify-content: end;
+}
